@@ -7,10 +7,9 @@ no network, no input.
 
 import os
 
-JOKE = (
-    "I told my AI agent to make the demo impossible to crash. "
-    "It worked \u2014 now the app crashes at startup, before anyone can demo it."
-)
+SETUP = "I asked my AI agent to make the demo crash-proof."
+PUNCHLINE = "It worked \u2014 the app now crashes at startup, before anyone can demo it."
+JOKE = f"{SETUP} {PUNCHLINE}"
 
 
 def main() -> None:
